@@ -26,3 +26,10 @@ def dividir(a, b):
 if __name__ == "__main__":
     print("División:", dividir(10, 2))
     
+    
+# Funcion : Potencia
+def potencia(base, exponente):
+    return base ** exponente
+
+if __name__ == "__main__":
+    print(f"Potencia = {potencia(x,y)}")
