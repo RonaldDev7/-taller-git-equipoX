@@ -1,5 +1,5 @@
 """
-Equipo: Ronald Alvarez, Ivan Andres, 
+Equipo: Ronald Alvarez, Ivan Andres, Nelsy Madera, Samuel Pai
 """
 
 # Funcion : Suma
@@ -21,7 +21,7 @@ def multiplicar(a, b):
     return a*b
 if __name__ == "__name__":
     print("Multiplicar: 6*7=", multiplicar(6, 7))
-   
+
 # Funcion : Division
 def dividir(a, b):
     if b != 0:
