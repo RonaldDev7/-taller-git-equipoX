@@ -2,6 +2,7 @@
 Equipo: Ronald Alvarez, Ivan Andres, 
 """
 
+# Funcion : Suma
 def sumar(a, b):
     return a + b
 
@@ -14,3 +15,14 @@ if __name__ == "__main__":
     
     print(f"Suma de {x} + {y} = {sumar(x, y)}")
     print(f"Resta de {x} - {y} = {restar(x, y)}")
+    
+# Funcion : Division
+def dividir(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Error: Division entre cero"
+    
+if __name__ == "__main__":
+    print("División:", dividir(10, 2))
+    
