@@ -15,7 +15,13 @@ if __name__ == "__main__":
     
     print(f"Suma de {x} + {y} = {sumar(x, y)}")
     print(f"Resta de {x} - {y} = {restar(x, y)}")
-    
+
+#Función : Multiplicar 
+def multiplicar(a, b):
+    return a*b
+if __name__ == "__name__":
+    print("Multiplicar: 6*7=", multiplicar(6, 7))
+   
 # Funcion : Division
 def dividir(a, b):
     if b != 0:
