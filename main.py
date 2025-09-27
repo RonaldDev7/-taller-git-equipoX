@@ -39,3 +39,13 @@ def potencia(base, exponente):
 
 if __name__ == "__main__":
     print(f"Potencia = {potencia(x,y)}")
+    
+# Función : Módulo
+def modulo(a, b):
+    if b != 0:
+        return a % b
+    else:
+        return "Error: División entre cero"
+
+if __name__ == "__main__":
+    print(f"Módulo: 10 % 3 = {modulo(10, 3)}")
